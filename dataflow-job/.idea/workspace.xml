@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4596a9b-629f-4ee7-b3de-f638352fe369" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1UpsDiEiDVljq1v6Bc6pamMpcZu" />
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hsbc.eep.hackslack.transforms" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hsbc.eep.hackslack.transforms" />
+      <recent name="com.hsbc.eep.hackslack" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BatchJob Local Full">
+    <configuration name="BatchJob Local Full" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="C:\Users\Tanguy\EEP\Hackathon\credentials\eep-hack-01-cf3deb597a0d_rana.json" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.hsbc.eep.hackslack.BatchJob" />
+      <module name="Hackathon" />
+      <option name="PROGRAM_PARAMETERS" value="--project=eep-hack-01 --gcpTempLocation=gs://hack_slack/tmp --tempLocation=gs://hack_slack/tmp --region=europe-west1 --zone=europe-west2-b --serviceAccount=hack_slack --subnetwork=https://www.googleapis.com/compute/alpha/projects/eep-hack-01/regions/europe-west2/subnetworks/hack2 --workerMachineType=n1-standard-2 --numWorkers=20 --maxNumWorkers=20 --autoscalingAlgorithm=NONE --bigQueryOutputTable=hs_test.slack_nlp_output --slackDumpsRoot=gs://hack_slack/message-data/*.json" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BatchJob Local Smal" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="C:\Users\Tanguy\EEP\Hackathon\credentials\eep-hack-01-cf3deb597a0d_rana.json" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.hsbc.eep.hackslack.BatchJob" />
+      <module name="Hackathon" />
+      <option name="PROGRAM_PARAMETERS" value="--project=eep-hack-01 --gcpTempLocation=gs://hack_slack/tmp --tempLocation=gs://hack_slack/tmp --region=europe-west1 --zone=europe-west1-b --serviceAccount=hs-sa-326@eep-hack-01.iam.gserviceaccount.com --subnetwork=https://www.googleapis.com/compute/alpha/projects/eep-hack-01/regions/europe-west1/subnetworks/hack1 --workerMachineType=n1-standard-2 --numWorkers=20 --maxNumWorkers=20 --autoscalingAlgorithm=NONE --bigQueryOutputTable=hs_test.slack_nlp_output --slackDumpsRoot=C:\\Users\\Tanguy\\Downloads\\message-data_general.json" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BatchJob" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="C:\Users\Tanguy\EEP\Hackathon\credentials\eep-hack-01-cf3deb597a0d_rana.json" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.hsbc.eep.hackslack.BatchJob" />
+      <module name="Hackathon" />
+      <option name="PROGRAM_PARAMETERS" value="--runner=DataflowRunner --project=eep-hack-01 --gcpTempLocation=gs://hack_slack/tmp --tempLocation=gs://hack_slack/tmp --region=europe-west1 --zone=europe-west2-b --serviceAccount=hs-sa-326@eep-hack-01.iam.gserviceaccount.com --subnetwork=https://www.googleapis.com/compute/alpha/projects/eep-hack-01/regions/europe-west2/subnetworks/hack2 --workerMachineType=n1-standard-2 --numWorkers=1 --maxNumWorkers=1 --autoscalingAlgorithm=NONE --bigQueryOutputTable=hs_test.slack_nlp_output --slackDumpsRoot=gs://hack_slack/message-data/*.json" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamingJob Local" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="C:\Users\Tanguy\EEP\Hackathon\credentials\eep-hack-01-cf3deb597a0d_rana.json" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.hsbc.eep.hackslack.StreamingJob" />
+      <module name="Hackathon" />
+      <option name="PROGRAM_PARAMETERS" value="--project=eep-hack-01 --gcpTempLocation=gs://hack_slack/tmp --tempLocation=gs://hack_slack/tmp --region=europe-west1 --zone=europe-west2-b --serviceAccount=hs-sa-326@eep-hack-01.iam.gserviceaccount.com --subnetwork=https://www.googleapis.com/compute/alpha/projects/eep-hack-01/regions/europe-west2/subnetworks/hack2 --workerMachineType=n1-standard-2 --numWorkers=20 --maxNumWorkers=20 --autoscalingAlgorithm=NONE --bigQueryOutputTable=hs_test.slack_nlp_output --slackSubscription=projects/eep-hack-01/subscriptions/hack_slack" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamingJob" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="C:\Users\Tanguy\EEP\Hackathon\credentials\eep-hack-01-cf3deb597a0d_rana.json" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.hsbc.eep.hackslack.StreamingJob" />
+      <module name="Hackathon" />
+      <option name="PROGRAM_PARAMETERS" value="--runner=DataflowRunner --project=eep-hack-01 --gcpTempLocation=gs://hack_slack/tmp --tempLocation=gs://hack_slack/tmp --region=europe-west1 --zone=europe-west2-b --serviceAccount=hs-sa-326@eep-hack-01.iam.gserviceaccount.com --subnetwork=https://www.googleapis.com/compute/alpha/projects/eep-hack-01/regions/europe-west2/subnetworks/hack2 --workerMachineType=n1-standard-2 --numWorkers=1 --maxNumWorkers=1 --autoscalingAlgorithm=NONE --bigQueryOutputTable=hs_test.slack_nlp_output --slackSubscription=projects/eep-hack-01/subscriptions/hack_slack" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BatchJob" />
+      <item itemvalue="Application.StreamingJob" />
+      <item itemvalue="Application.StreamingJob Local" />
+      <item itemvalue="Application.BatchJob Local Full" />
+      <item itemvalue="Application.BatchJob Local Smal" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4596a9b-629f-4ee7-b3de-f638352fe369" name="Default Changelist" comment="" />
+      <created>1576064752957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576064752957</updated>
+    </task>
+    <servers />
+  </component>
+</project>
